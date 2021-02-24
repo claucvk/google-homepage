@@ -1,74 +1,54 @@
-a #app {
-    height: 20px;
-    width: 20px;
+main {
+    background-color: green;
 }
 
-a #profile-account {
+.menu-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about {
+    padding-left: 20px;
+}
+
+#store {
+    padding-left: 20px;
+}
+
+#images {
+    padding-left: 20px;
+    margin-left: auto;
+}
+
+#gmail {
+    padding-left: 20px;
+}
+
+.tags-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    text-decoration: none;
+}
+
+div.nav-links {
+    background-color: magenta;
+}
+
+
+#profile {
     height: 40px;
     width: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#apps {
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
 }
 
 a:hover {
     text-decoration: underline;
 }
-
-.tags-menu { 
-    color: #222222;
-    text-decoration: none;
-}
-
-li {
-    display: inline-block;
-}
-
-#about {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    float: left;
-    padding-top: 23px;
-    padding-left: 20px;
-}
-
-#store {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    float: left;
-    padding-top: 23px;
-    padding-left: 20px; 
-}
-
-#gmail {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    color: rgba(0,0,0,0.87);
-    float: right;
-    padding-top: 32px;
-    padding-right: 20px;
-}
-
-#images {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    color: rgba(0,0,0,0.87);
-    float: right;
-    padding-top: 32px;
-    padding-right: 30px;
-}
-
-#apps {
-    float: right;
-    padding-top: 30px;
-    padding-right: 20px;
-}
-
-img:hover {
-
-        opacity: 0.5;
-}
-
-#profile {
-    float: right;
-    padding-top: 20px;
-    padding-right: 30px;
-} 
-
