@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="menu">
+        <nav>
             <ul class="menu-options">
                 <li id="about"> <a href="#" class="tags-menu">About</a></li>
                 <li id="store"> <a href="#" class="tags-menu">Store</a></li>
@@ -21,23 +21,22 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="logo">
-            <img src="/images/google-logo.png" alt="google logo" class="center">
-        </div>
-        <div>
-            <form action="" method="get" class="search-function">
+    <main class="main-wrap">
+        <img src="/images/google-logo.png" alt="google logo">
+        <form action="" method="get" class="search-form">
             <div>
-                <input type="text" name="text" id="text">
+                <input type="text" name="text" id="text" placeholder="&#xF002;">
             </div>
-            <div>
-                <input type="button" value="Google Search">
-            </div>
-            <div>
-                <input type="button" value="I'm Feeling Lucky">
+            <br>
+            <div class="search-btn-wrap">
+                <div>
+                    <input type="button" value="Google Search" class="search-btn">
+                </div>
+                <div>
+                    <input type="button" value="I'm Feeling Lucky" class="search-btn">
+                </div>
             </div>
         </form>
-        </div>
     </main>
     <footer>
 
