@@ -1,3 +1,14 @@
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+#page-wrap {
+    position: relative;
+    min-height: 100vh;
+}
+
 .menu-options {
     display: flex;
     align-items: center;
@@ -21,11 +32,6 @@
     padding-left: 20px;
 }
 
-.tags-menu {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222222;
-}
-
 div.nav-links {
     background-color: magenta;
 }
@@ -46,6 +52,7 @@ div.nav-links {
 
 a {
     text-decoration: none;
+    color: #222;
 }
 
 a:hover {
@@ -58,6 +65,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 9%;
+    padding-bottom: 2.5rem;
 }
 
 #text {
@@ -111,8 +119,6 @@ a:hover {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
@@ -123,11 +129,63 @@ a:hover {
 }
 
 .google-latino {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     color: #222222;
 }
 
 #latino-link {
     color: #1A0DAB;
+}
+
+#footer {
+    background-color: #f2f2f3;
+    position: absolute;
+    color:#70757a;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-top: 18px;
+}
+
+.footer-tags {
+    color:#70757a;
+}
+
+#ads {
+    padding-left: 30px;
+}
+
+#business {
+    padding-left: 30px;
+}
+
+#how-search-works {
+    padding-left: 30px;
+}
+
+#carbon-neutral {
+    margin-left: auto;
+}
+
+#leaf {
+    height: 14px;
+    margin-right: 6px;
+}
+
+#privacy {
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+#terms {
+    padding-right: 30px;
+}
+
+#settings {
+    padding-right: 30px;
 }

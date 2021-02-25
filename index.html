@@ -9,40 +9,50 @@
     <title>Google homepage</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="menu-options">
-                <li id="about"> <a href="#" class="tags-menu">About</a></li>
-                <li id="store"> <a href="#" class="tags-menu">Store</a></li>
-                <li id="images"><a href="#" class="tags-menu">Images</a></li>
-                <li id="gmail"><a href="#" class="tags-menu">Gmail</a></li>
-                <li><a href="#"><img id="apps" src="images/001-apps.png" alt="google apps link"></a></li>
-                <li><a href="#"><img id="profile" src="images/002-profile.png" alt="google account link"></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main-wrap">
-        <img src="/images/google-logo.png" alt="google logo">
-        <form action="" method="get" class="search-form">
-            <div>
-                <input type="text" name="text" id="text" placeholder="&#xF002;">
-                <a class="voice-search"><img src="/images/voice-search.png" alt="voice-search" id="microphone"></a>
-            </div>
+    <div id="page-wrap">
+        <header>
+            <nav>
+                <ul class="menu-options">
+                    <li id="about"> <a href="#">About</a></li>
+                    <li id="store"> <a href="#">Store</a></li>
+                    <li id="images"><a href="#">Images</a></li>
+                    <li id="gmail"><a href="#">Gmail</a></li>
+                    <li><a href="#"><img id="apps" src="images/001-apps.png" alt="google apps link"></a></li>
+                    <li><a href="#"><img id="profile" src="images/002-profile.png" alt="google account link"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-wrap">
+            <img src="/images/google-logo.png" alt="google logo">
+            <form action="" method="get" class="search-form">
+                <div>
+                    <input type="text" name="text" id="text" placeholder="&#xF002;">
+                    <a class="voice-search"><img src="/images/voice-search.png" alt="voice-search" id="microphone"></a>
+                </div>
+                <br>
+                <div class="search-btn-wrap">
+                    <div>
+                        <input type="button" value="Google Search" class="search-btn">
+                    </div>
+                    <div>
+                        <input type="button" value="I'm Feeling Lucky" class="search-btn">
+                    </div>
+                </div>
+            </form>
             <br>
-            <div class="search-btn-wrap">
-                <div>
-                    <input type="button" value="Google Search" class="search-btn">
-                </div>
-                <div>
-                    <input type="button" value="I'm Feeling Lucky" class="search-btn">
-                </div>
-            </div>
-        </form>
-        <br>
-        <p class="google-latino">Google offered in: <a href="#" id="latino-link">Español (Latinoamérica)</a></p>
-    </main>
-    <footer>
-
-    </footer>
+            <p class="google-latino">Google offered in: <a href="#" id="latino-link">Español (Latinoamérica)</a></p>
+        </main>
+        <footer id="footer">
+            <ul class="footer-links">
+                <li id="ads"><a href="#" class="footer-tags">Advertising</a></li>
+                <li id="business"><a href="#" class="footer-tags">Business</a></li>
+                <li id="how-search-works"><a href="#" class="footer-tags">How Search works</a></li>
+                <li id="carbon-neutral"><img id="leaf" src="images/leaf.png" alt="leaf"><a href="#" class="footer-tags">Carbon neutral since 2007</a></li>
+                <li id="privacy"><a href="#" class="footer-tags">Privacy</a></li>
+                <li id="terms"><a href="#" class="footer-tags">Terms</a></li>
+                <li id="settings"><a href="#" class="footer-tags">Settings</a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
