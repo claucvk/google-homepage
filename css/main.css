@@ -24,7 +24,6 @@
 .tags-menu {
     font-family: Arial, Helvetica, sans-serif;
     color: #222222;
-    text-decoration: none;
 }
 
 div.nav-links {
@@ -43,6 +42,10 @@ div.nav-links {
     height: 20px;
     width: 20px;
     padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
@@ -76,6 +79,21 @@ a:hover {
     box-shadow: 0 0 5px #dfe1e5;
 }
 
+.voice-search {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#microphone {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 36px;
+    top: 4px;
+}
+
 .search-form {
     margin-top: 2%;
 }
@@ -93,7 +111,7 @@ a:hover {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -102,4 +120,14 @@ a:hover {
     min-width: 54px;
     text-align: center;
     cursor: pointer;
+}
+
+.google-latino {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+
+#latino-link {
+    color: #1A0DAB;
 }
