@@ -167,6 +167,7 @@ input[type=button] + input[type=button] {
 
 .footer-links {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px; 
@@ -208,4 +209,20 @@ input[type=button] + input[type=button] {
 
 #settings {
     padding-right: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer-links {
+        justify-content: space-evenly;
+        flex-shrink: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #carbon-neutral {
+        order: -1;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }  
 }
