@@ -160,9 +160,12 @@ input[type=button] + input[type=button] {
 #footer {
     background-color: #f2f2f3;
     color:#70757a;
-    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 100%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
 }
 
 .footer-links {
